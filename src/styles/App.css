@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background: #073175;
   font-family: "open sans", "Lato", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -55,14 +60,33 @@ body {
   -ms-grid-column: 1;
   grid-area: menu;
   background: rgba(0, 0, 0, 0.07);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.27);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto;
       grid-template-rows: auto;
-      grid-template-areas: ' . icons . ';
+      grid-template-areas: ' overview icons notification ';
+}
+
+.App-container .menu .overview {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: overview;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 25px;
+  margin-left: 50px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  width: 80px;
 }
 
 .App-container .menu .icons {
@@ -85,9 +109,40 @@ body {
   padding: 30px;
 }
 
+.App-container .menu .notification {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: notification;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.App-container .menu .notification svg {
+  position: relative;
+  padding: 30px;
+  margin-right: 50px;
+  opacity: 0.8;
+}
+
 .App-container .main {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: main;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=App.css.map */
