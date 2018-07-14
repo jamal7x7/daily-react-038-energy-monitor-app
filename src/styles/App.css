@@ -109,6 +109,10 @@ body {
   padding: 30px;
 }
 
+.App-container .menu .icons svg:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
 .App-container .menu .notification {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
