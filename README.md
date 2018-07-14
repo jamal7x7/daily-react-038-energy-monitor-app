@@ -4,7 +4,6 @@
 
 My ongoing submission: https://github.com/jamal7x7/daily-react-038-energy-monitor-app 
 
-#100DaysOfReact #100DaysOfCode #dailyReact #javascript #react #reactjs #UIDesign #UIUX #UIUXDesign
 
 Roadmap:
 
@@ -18,4 +17,6 @@ Roadmap:
 
 ![Alt text](src/images/daily-react-038-energy-monitor-app.png?raw=true "App UI")
 
+---
 
+#100DaysOfReact #100DaysOfCode #dailyReact #javascript #react #reactjs #UIDesign #UIUX #UIUXDesign
