@@ -2,7 +2,7 @@
 
 > Challenge: create an app to monitor the energy consumption of a household.
 
-My ongoing submission: https://github.com/jamal7x7/daily-react-038-energy-monitor-app 
+Work in progress: https://github.com/jamal7x7/daily-react-038-energy-monitor-app 
 
 
 Roadmap:
